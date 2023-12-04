@@ -22,3 +22,9 @@ sources:
               - unique
               - not_null
       - name: order_details
+      - name: customers
+        columns:
+          - name: customer_id
+            tests:
+              - unique
+              - not_null
